@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap');
+
+
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(204, 204, 204);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+    font-weight: 800;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+.navbar ul {
+    display: flex;
+}
+.navbar ul li{
+    list-style-type: none;
+    padding: 0 20px 0 20px;
+}
+.navbar ul li a{ 
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all ease .5s ;
+}
+.navbar li a:hover{ 
+    color: black;
+}
+.container #title {
+    font-size: 3rem;
+    color: white;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+.container p {
+    font-size: 1.5rem;
+    color: white;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.image-div{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+.image-div figcaption{
+    font-size: 20px;
+    color: rgb(68, 68, 68);
+    font-weight: 400;
+    font-style: italic;
+    padding-top: 30px;
+    line-height: 2;
+    text-decoration: underline;
+    
+}
+
+
+.tribute-info h3 {
+      font-size: 2rem;
+      color: rgb(255, 255, 255);
+      margin-top: 80px;
+      background-color: black;
+      
+}
+.tribute-info li{
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.tribute-info li span{
+     font-size:1.8rem;
+     color: rgb(255, 255, 255);
+     font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px){
+       
+    
+}
+@media only screen and (max-width: 775px){
+      
+}
+   
+
+@media only screen and (max-width: 200px){
+       
+     
+}
